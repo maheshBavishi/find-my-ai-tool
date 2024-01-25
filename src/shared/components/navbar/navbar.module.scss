@@ -1,0 +1,46 @@
+@import '../../../styles/mixins/index.scss';
+
+.header {
+    padding: 14px 0;
+
+    .headerAlignment {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rightContent {
+            button {
+                border: none;
+                cursor: pointer;
+                @include font16-bold;
+                color: $theme-white;
+                padding: 7px 22px;
+                border-radius: 999px;
+                background-color: $theme-primary-background-color;
+            }
+        }
+
+        .leftContent {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            img {
+                max-width: 120px;
+                cursor: pointer;
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                a {
+                    display: block;
+                    position: relative;
+                    @include font16-bold;
+                    color: $theme-gray-100;
+                    cursor: pointer;
+                    letter-spacing: 0.48px;
+                }
+            }
+        }
+    }
+}
