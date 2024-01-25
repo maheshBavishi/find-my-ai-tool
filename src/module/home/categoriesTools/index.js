@@ -11,7 +11,7 @@ export default function CategoriesTools() {
       <div className='container'>
         <div className={styles.titleAlignment}>
           <AnimatedSection animationType="fade-up" duration={600} delay={400}>
-            <h3>Categories <span>Tools</span></h3>
+            <h3>Popular  <span>Tools</span></h3>
           </AnimatedSection>
           <ViewAll />
         </div>
@@ -20,9 +20,9 @@ export default function CategoriesTools() {
             [...Array(4)].map((items, index) => {
               duration = duration + (index ? 200 : 0);
               return (
-                  <AnimatedSection animationType="fade-up" duration={500} delay={duration} key={index}>
-                    <Carddesign />
-                  </AnimatedSection>
+                <AnimatedSection animationType="fade-up" duration={500} delay={duration} key={index}>
+                  <Carddesign />
+                </AnimatedSection>
               )
             })
           }

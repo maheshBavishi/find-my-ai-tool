@@ -9,6 +9,7 @@ import Article from './article'
 import ArticlesAndBlogCard from './articlesAndBlogCard'
 import Blog from './blog'
 import Faqsection from './faqsection'
+import Toolssection from './toolssection'
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <CompanyImage/>
       <CardSection/>
       <Testimonial/>
+      <Toolssection/>
       <CategoriesTools/>
       <GetInTouch/>
       <Article/>
