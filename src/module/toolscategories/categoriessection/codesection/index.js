@@ -4,7 +4,7 @@ import Categoriescard from '../categoriescard';
 export default function Codesection() {
   return (
     <div>
-       <div className={styles.codesectionAlignment}>
+       <div className={styles.codesectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className={styles.title}>
         <h5>
             <span>Code</span>

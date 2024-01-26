@@ -4,7 +4,7 @@ import Categoriescard from '../categoriescard';
 export default function Threedsection() {
   return (
     <div>
-       <div className={styles.threedsectionAlignment}>
+       <div className={styles.threedsectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className={styles.title}>
         <h5>
             <span>3D</span>

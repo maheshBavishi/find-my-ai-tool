@@ -3,7 +3,7 @@ import styles from './blogbanner.module.scss';
 import Searchbar from '@/module/home/herobanner/searchbar';
 export default function Blogbanner() {
   return (
-    <div className={styles.blogbannerAlignment}>
+    <div className={styles.blogbannerAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className='container'>
         <div className={styles.line}></div>
         <div className={styles.textSectionAlignment}>

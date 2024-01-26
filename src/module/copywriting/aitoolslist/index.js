@@ -9,7 +9,7 @@ export default function Aitoolslist() {
     let duration = 100;
 
     return (
-        <div className={styles.aitoolslistAllContnetAlignment}>
+        <div className={styles.aitoolslistAllContnetAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
             <div className='container'>
                 <div className={styles.aitoolslistHeaderAlignment}>
                     <Filter />

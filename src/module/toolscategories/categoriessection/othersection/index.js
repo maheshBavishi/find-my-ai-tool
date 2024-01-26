@@ -4,7 +4,7 @@ import Categoriescard from '../categoriescard';
 export default function Othersection() {
     return (
         <div>
-            <div className={styles.othersectionAlignment}>
+            <div className={styles.othersectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
                 <div className={styles.title}>
                     <h5>
                         <span>Other</span>

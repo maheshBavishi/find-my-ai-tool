@@ -2,7 +2,7 @@
 
 .header {
     padding: 14px 0;
-
+    transition: .2s ease-in-out;
     .headerAlignment {
         display: flex;
         align-items: center;
@@ -80,4 +80,14 @@
             }
         }
     }
+}
+
+.app {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    transition: .2s ease-in-out;
+    background: linear-gradient(90deg, rgba(98, 93, 245, 0.1) 0.01%, rgba(98, 93, 245, 0.03) 16.53%, rgba(98, 93, 245, 0.03) 49.06%, rgba(98, 93, 245, 0.03) 83.21%, rgba(98, 93, 245, 0.1) 99.99%);
+    backdrop-filter: blur(19.596906662px);
 }

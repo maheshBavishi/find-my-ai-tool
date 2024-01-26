@@ -3,7 +3,7 @@ import styles from './audiosection.module.scss';
 import Categoriescard from '../categoriescard';
 export default function Audiosection() {
     return (
-        <div className={styles.audiosectionAlignment}>
+        <div className={styles.audiosectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
             <div className={styles.title}>
                 <h5>
                     <span>Audio</span>

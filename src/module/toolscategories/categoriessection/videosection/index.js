@@ -4,7 +4,7 @@ import Categoriescard from '../categoriescard';
 export default function Videosection() {
   return (
     <div>
-       <div className={styles.videosectionAlignment}>
+       <div className={styles.videosectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className={styles.title}>
         <h5>
             <span>Video</span>

@@ -7,7 +7,7 @@ const VisitIcon = '/assets/icons/Visit.svg';
 const MessageIcon = '/assets/icons/message.svg';
 export default function Categoriesinformation() {
     return (
-        <div className={styles.categoriesinformationAlignment}>
+        <div className={styles.categoriesinformationAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
             <div className='container'>
                 <div className={styles.grid}>
                     <div className={styles.griditems}>

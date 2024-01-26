@@ -6,7 +6,7 @@ const BlogImage = '/assets/images/blog1.png';
 const Blog2Image = '/assets/images/blog2.png';
 export default function Blogdetailslist() {
   return (
-    <div className={styles.blogdetailslistalignment}>
+    <div className={styles.blogdetailslistalignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className='container'>
         <div className={styles.grid}>
           <div className={styles.griditems}>

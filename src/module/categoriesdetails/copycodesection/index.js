@@ -4,7 +4,7 @@ const FeaturedIcon = '/assets/icons/featured.svg';
 const CopyIcon = '/assets/icons/copy.svg';
 export default function Copycodesection() {
   return (
-    <div className={styles.copycodesectionAlignment}>
+    <div className={styles.copycodesectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className='container'>
         <div className={styles.box}>
             <div className={styles.leftContnet}>

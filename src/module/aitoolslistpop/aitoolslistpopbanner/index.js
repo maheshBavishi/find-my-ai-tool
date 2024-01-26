@@ -9,6 +9,8 @@ const MonicaIcon = '/assets/icons/monica.svg';
 const BingIcon = '/assets/icons/bing.svg';
 const JasperIcon = '/assets/icons/Jasper.svg';
 const ChatgptIcon = '/assets/icons/Chatgpt.svg';
+import Link from 'next/link';
+
 export default function Aitoolslistpopbanner() {
     return (
         <div>

@@ -4,7 +4,7 @@ const ThumbIcon = '/assets/icons/thumb.svg';
 const ThumbIconSec = '/assets/icons/thumb-sec.svg';
 export default function Categoriestextsection() {
     return (
-        <div className={styles.categoriestextsectionAlignment}>
+        <div className={styles.categoriestextsectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
             <div className='container'>
                 <div className={styles.textStyle}>
                     <p>

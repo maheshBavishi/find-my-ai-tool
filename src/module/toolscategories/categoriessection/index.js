@@ -10,7 +10,7 @@ import Businesssection from './businesssection';
 import Othersection from './othersection';
 export default function Categoriessection() {
   return (
-    <div className={styles.categoriessectionAllContnetAlignment}>
+    <div className={styles.categoriessectionAllContnetAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className='container'>
         <div className={styles.title}>
             <h4><span>Text</span></h4>

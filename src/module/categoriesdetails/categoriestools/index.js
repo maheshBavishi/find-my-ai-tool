@@ -7,7 +7,7 @@ export default function Categoriestools() {
   let duration = 100;
 
   return (
-    <div className={styles.categoriestoolsallContnetAlignment}>
+    <div className={styles.categoriestoolsallContnetAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className='container'>
       <div className={styles.grid}>
           {

@@ -3,7 +3,7 @@ import styles from './imageSection.module.scss';
 import Categoriescard from '../categoriescard';
 export default function ImageSection() {
   return (
-    <div className={styles.imageSectionAlignment}>
+    <div className={styles.imageSectionAlignment} data-scroll data-scroll-section data-scroll-direction="horizontal">
       <div className={styles.title}>
         <h5>
             <span>Image</span>

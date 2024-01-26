@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-        <title>Superflow</title>
+        <title>FindMyAITool - List of AI Tools</title>
       </head>
       <body className={inter.className}>
         <Wrapper>
