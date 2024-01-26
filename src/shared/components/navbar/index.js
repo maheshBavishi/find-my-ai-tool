@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './navbar.module.scss';
-const Logo = '/assets/logo/logo.svg';
+const Logo = '/assets/logo/logo.webp';
 export default function Navbar() {
   return (
     <header className={styles.header}>

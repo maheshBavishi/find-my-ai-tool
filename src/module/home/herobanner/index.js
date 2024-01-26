@@ -64,7 +64,7 @@ export default function Herobanner() {
                     </AnimatedSection>
                     <AnimatedSection animationType="fade-up" duration={600} delay={200}>
                         <div className={styles.serchbarCenterAlignment}>
-                            <Searchbar />
+                            <Searchbar placeholder='Type to search for over 1500+ tools...' />
                         </div>
                     </AnimatedSection>
                     <AnimatedSection animationType="fade-up" duration={600} delay={250}>

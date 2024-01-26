@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 import Footer from "@/shared/components/footer";
+import Wrapper from "@/shared/components/wrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,12 +32,9 @@ export default function RootLayout({ children }) {
         <title>Superflow</title>
       </head>
       <body className={inter.className}>
-        <TopBar />
-        <Navbar />
-        <div data-scroll >
+        <Wrapper>
           {children}
-        </div>
-        <Footer />
+        </Wrapper>
       </body>
     </html>
   );

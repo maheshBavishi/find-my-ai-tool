@@ -48,6 +48,14 @@
     line-height: normal;
 }
 
+@mixin font22 {
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 @mixin heading1 {
     font-family: 'Mulish', sans-serif;
     font-size: 58px;
