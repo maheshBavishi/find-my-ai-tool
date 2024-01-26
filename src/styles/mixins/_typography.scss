@@ -79,3 +79,11 @@
     font-weight: 700;
     line-height: normal;
 }
+
+@mixin heading5 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

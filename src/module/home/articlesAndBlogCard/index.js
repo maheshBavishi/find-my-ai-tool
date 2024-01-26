@@ -3,10 +3,12 @@ import styles from './articlesAndBlogCard.module.scss';
 const BlogImage = '/assets/images/blog-image.png';
 const CalenderIcon = '/assets/icons/calender.svg';
 const LineIcon = '/assets/icons/line.svg';
+import Link from 'next/link';
 const EyeIcon = '/assets/icons/eye.svg';
 export default function ArticlesAndBlogCard() {
     return (
         <div className={styles.articlesAndBlogCard}>
+            <Link href="/blogdetails">
             <div className={styles.image}>
                 <img src={BlogImage} alt='BlogImage' />
             </div>
@@ -29,6 +31,7 @@ export default function ArticlesAndBlogCard() {
                     <button>Read More</button>
                 </div>
             </div>
+            </Link>
         </div>
     )
 }

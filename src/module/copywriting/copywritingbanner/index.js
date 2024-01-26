@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from './herobanner.module.scss';
-import Searchbar from './searchbar';
+import styles from './copywritingbanner.module.scss';
 import AnimatedSection from '@/shared/components/Animation/AnimatedSection';
+import Searchbar from '@/module/home/herobanner/searchbar';
 import Link from 'next/link';
+
 const RightIcon = '/assets/icons/right.svg';
 const LoopinIcon = '/assets/icons/loopin.svg';
 const AdobeIcon = '/assets/icons/Adobe.svg';
@@ -10,9 +11,10 @@ const MonicaIcon = '/assets/icons/monica.svg';
 const BingIcon = '/assets/icons/bing.svg';
 const JasperIcon = '/assets/icons/Jasper.svg';
 const ChatgptIcon = '/assets/icons/Chatgpt.svg';
-export default function Herobanner() {
-    return (
-        <div className={styles.herobanner} data-scroll-section data-scroll-direction="horizontal"   >
+export default function Copywritingbanner() {
+  return (
+    <div>
+       <div className={styles.herobanner} data-scroll-section data-scroll-direction="horizontal"   >
             <div className='container'>
                 <div className={styles.relativeSection}>
                     <div className={styles.first}>
@@ -54,13 +56,12 @@ export default function Herobanner() {
                     </div>
                     <AnimatedSection animationType="fade-up" duration={600} delay={100}>
                         <h1>
-                            Discover <span>AI Tools</span> for Your Business!
+                        <span>Copywriting</span> AI Tools
                         </h1>
                     </AnimatedSection>
                     <AnimatedSection animationType="fade-up" duration={600} delay={150}>
                         <p>
-                            Streamline Your Workflow with Our List of AI tools Find Your
-                            Perfect Solution.
+                        Compelling Content Made Easy - Top AI Copywriting Tools
                         </p>
                     </AnimatedSection>
                     <AnimatedSection animationType="fade-up" duration={600} delay={200}>
@@ -70,11 +71,9 @@ export default function Herobanner() {
                     </AnimatedSection>
                     <AnimatedSection animationType="fade-up" duration={600} delay={250}>
                         <div className={styles.twoButtonAlignment}>
-                            <Link href="/aitoolslist">
                             <button>Explore 1500+ AI Tools
                                 <img src={RightIcon} alt='RightIcon' />
                             </button>
-                            </Link>
                             <Link href="/toolscategories">
                             <button>View All categories
                                 <img src={RightIcon} alt='RightIcon' />
@@ -82,13 +81,9 @@ export default function Herobanner() {
                             </Link>
                         </div>
                     </AnimatedSection>
-                    <AnimatedSection animationType="fade-up" duration={600} delay={280}>
-                        <div className={styles.submitButton}>
-                            <button>Submit Your Tool</button>
-                        </div>
-                    </AnimatedSection>
                 </div>
             </div>
         </div>
-    )
+    </div>
+  )
 }

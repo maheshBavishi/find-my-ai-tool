@@ -32,6 +32,22 @@
                 display: flex;
                 align-items: center;
                 gap: 30px;
+                .activeClass {
+                   position: relative;
+
+                   &::before {
+                    position: absolute;
+                    bottom: -6px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    content: " ";
+                    color: transparent;
+                    background: #625DF5;
+                    height: 2px;
+                    transition: .4s ease-in-out;
+                   }
+                }
                 a {
                     display: block;
                     position: relative;
@@ -39,6 +55,27 @@
                     color: $theme-gray-100;
                     cursor: pointer;
                     letter-spacing: 0.48px;
+                    position: relative;
+
+                    &:hover {
+                        &::after {
+                            width: 100%;
+                        }
+                    }
+
+                    &::after {
+                        position: absolute;
+                        bottom: -6px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        content: " ";
+                        color: transparent;
+                        background: #625DF5;
+                        height: 2px;
+                        width: 0px;
+                        transition: .4s ease-in-out;
+                    }
                 }
             }
         }
